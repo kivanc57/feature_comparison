@@ -128,4 +128,4 @@ Through exploratory data analysis and statistical modeling, this project reveals
 Let me know if there are any specific details you’d like to adjust or additional sections you want to include!  
 * **Email**: kivancgordu@hotmail.com
 * **Version**: 1.0.0
-* **Date**: 22-06-2024
+* **Date**: 23-06-2024
