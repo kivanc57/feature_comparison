@@ -122,7 +122,14 @@ fviz_cluster(pam.res, geom = "point", ellipse.type = "norm")
 Through exploratory data analysis and statistical modeling, this project reveals significant insights into the relationships between features and their impact on the diagnosis variable. The use of correlation analysis, PCA, and clustering methods provides a comprehensive understanding of the data and highlights key patterns and relationships.
 
 * More comprehensive report is avalable in the project folder within `report.docx`.
-* Datset used in this project can be accessed [here](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data?resource=download)  
+
+## Dataset
+* The original dataset that is used in this project is called 'Breast Cancer Wisconsin (Diagnostic) Data Set' and it can be accessed [here](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data?resource=download). 
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0) - see the [LICENSE](LICENSE) file for details.
+
 
 ## Contact
 Let me know if there are any specific details you’d like to adjust or additional sections you want to include!  
