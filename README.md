@@ -102,7 +102,7 @@ fviz_cluster(pam.res, geom = "point", ellipse.type = "norm")
 
 ```
 
-## Screenshots
+## Screenshots 🚗
 ### k-Mean Graph
 ![k-Mean](/screenshots/kmean.png?raw=true)
 
@@ -118,20 +118,19 @@ fviz_cluster(pam.res, geom = "point", ellipse.type = "norm")
 ### Logistic Regression Graph of radius_se and diagnosis columns
 ![Regression of radius_se/diagnosis ](/screenshots/regression2.png?raw=true)
 
-## Conclusions
+## Conclusions 📣
 Through exploratory data analysis and statistical modeling, this project reveals significant insights into the relationships between features and their impact on the diagnosis variable. The use of correlation analysis, PCA, and clustering methods provides a comprehensive understanding of the data and highlights key patterns and relationships.
 
 * More comprehensive report is avalable in the project folder within `report.docx`.
 
-## Dataset
+## Dataset 📰
 * The original dataset that is used in this project is called 'Breast Cancer Wisconsin (Diagnostic) Data Set' and it can be accessed [here](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data?resource=download). 
 
-## License
-
+## License 📍
 This project is licensed under the GNU General Public License v3.0 (GPL-3.0) - see the [LICENSE](LICENSE) file for details.
 
 
-## Contact
+## Contact 📩
 Let me know if there are any specific details you’d like to adjust or additional sections you want to include!  
 * **Email**: kivancgordu@hotmail.com
 * **Version**: 1.0.0
