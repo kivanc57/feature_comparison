@@ -6,7 +6,7 @@ The objective of this project is to examine the relationship between various fea
 **Dataset Details:**
 - **Format:** CSV
 - **Rows:** 569
-- **Columns:** 32 (excluding the "X" column with NaN values)
+- **Columns:** 32 (excluding the "X" column with `NaN` values)
 
 ### Key Steps:
 📱 **Data Preparation** 📱
@@ -106,14 +106,22 @@ fviz_cluster(pam.res, geom = "point", ellipse.type = "norm")
 ### k-Mean Graph
 ![k-Mean](/screenshots/kmean.png?raw=true)
 
+---
+
 ### Boxplot Graph of Each Feature
 ![Boxplot](/screenshots/boxplot.png?raw=true)
+
+---
 
 ### Correlation of Graph Each Feature
 ![Correlation](/screenshots/correlation.png?raw=true)
 
+---
+
 ### Logistic Regression Graph of compactness_mean and diagnosis columns
 ![Regression of compactness_mean/diagnosis](/screenshots/regression1.png?raw=true)
+
+---
 
 ### Logistic Regression Graph of radius_se and diagnosis columns
 ![Regression of radius_se/diagnosis ](/screenshots/regression2.png?raw=true)
