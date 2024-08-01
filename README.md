@@ -1,6 +1,6 @@
 # Cancer Diagnosis Analysis
 
-## Aim and Dataset
+## Aim and Dataset 🚀
 The objective of this project is to examine the relationship between various features in a dataset, focusing on the impact of the diagnosis variable, which consists of Malignant (M) and Benign (B) categories. The study employs Exploratory Data Analysis (EDA) and Descriptive Statistics to clarify how measurement results relate to health conditions. The analysis includes boxplots, scatterplots, correlation charts, k-means clustering, and logistic regression.
 
 **Dataset Details:**
@@ -9,27 +9,27 @@ The objective of this project is to examine the relationship between various fea
 - **Columns:** 32 (excluding the "X" column with NaN values)
 
 ### Key Steps:
-1. **Data Preparation:**
+📱 **Data Preparation** 📱
    - Load and preprocess the dataset.
    - Remove unnecessary columns and scale numerical data.
 
-2. **Descriptive Statistics:**
+🌟 **Descriptive Statistics** 🌟
    - Generate summary statistics for the features.
 
-3. **Visualization:**
+⚡ **Visualization** ⚡
    - **Boxplots:** Display the distribution and outliers of features.
    - **Scatterplots:** Illustrate the relationship between features like `radius_mean` and `perimeter_mean`.
 
-4. **Correlation Analysis:**
+🚨 **Correlation Analysis** 🚨
    - **Pearson’s and Spearman’s Correlation:** Analyze correlations and their significance between features.
 
-5. **Principal Component Analysis (PCA):**
+🔥 **Principal Component Analysis (PCA)** 🔥
    - Perform PCA to reduce dimensionality and visualize feature relationships.
 
-6. **Clustering:**
+🌱 **Clustering** 🌱
    - **K-Means Clustering:** Determine optimal cluster numbers and visualize clusters.
 
-7. **Logistic Regression:**
+🔔 **Logistic Regression** 🔔
    - Compare features like `compactness_mean` and `radius_se` with the diagnosis variable to analyze their relationship.
 
 ## R Script
