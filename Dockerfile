@@ -3,10 +3,15 @@
 FROM rocker/r-base:4.4.0 AS base
 
 # Install necessary dependencies
+# Install necessary dependencies
 RUN apt-get update --fix-missing && \
     apt-get install -y \
     libcurl4-openssl-dev \
-    libssl-dev && \
+    libssl-dev \
+    libxml2-dev \
+    libpng-dev \
+    libjpeg-dev \
+    libtiff-dev && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
