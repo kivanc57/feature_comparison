@@ -42,4 +42,9 @@ COPY --from=builder renv.lock ./renv.lock
 COPY --from=builder src ./src
 
 # Restore the environment
-RUN Rscript -e "install.packages('renv'); renv::restore(lockfile = 'renv.lock')"
+RUN R -e "install.packages('renv', repos='https://cloud.r-project.org/'); renv::restore(lockfile = 'renv.lock')"
+
+# STAGE 4: Clean up
+# Clean up APT when done
+RUN apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
