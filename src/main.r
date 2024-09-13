@@ -10,7 +10,7 @@ library(dplyr)
 library(PerformanceAnalytics)
 library(ggplot2)
 
-data <- read.csv("/Users/admin/Desktop/Workplace/Data/cancer.csv", sep=",", row.names=1, stringsAsFactors = T)
+data <- read.csv("data.csv", sep=",", row.names=1, stringsAsFactors = T)
 data
 nrow(data)
 ncol(data)

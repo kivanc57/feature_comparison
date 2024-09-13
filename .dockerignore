@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# C extensions
+*.so
+*.o
+
 # Folders
 sample/
 tests/
@@ -33,4 +37,5 @@ manual.pdf
 README.md
 .gitattributes
 .gitignore
+.travis.yml
 renv/

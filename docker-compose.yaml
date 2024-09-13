@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  r_explanatory_analysis:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+    - ./src:/home/R_feature_comparison
+    command: ["Rscript", "/home/R_feature_comparison/src/main.R"]
