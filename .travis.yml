@@ -5,7 +5,7 @@ services:
 
 env:
   global:
-    - DOCKERHUB_REPO=printf
+    - DOCKERHUB_REPO=r_feature_comparison
 
 branches:
   only:
