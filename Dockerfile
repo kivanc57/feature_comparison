@@ -6,11 +6,11 @@ FROM rocker/r-base:4.4.0 AS base
 RUN apt-get update && apt-get install -y \
   libcurl4-openssl-dev \
   libssl-dev \
-  libxml-2-dev \
+  libxml2-dev \
   libpng-dev \
   libjpeg-dev \
   libtiff-dev \
-  && rm -rf /var/lib/apt/listst*
+  && rm -rf /var/lib/apt/lists*
 
 # Install project-dependent packages
 RUN R -e "install.packages(c('tidyverse', 'cluster', 'Hmisc', 'plotly', 'ggfortify', 'factoextra', 'NbClust', 'ggpubr', 'dplyr', 'PerformanceAnalytics', 'ggplot2'), repos='https://cloud.r-project.org/')"
